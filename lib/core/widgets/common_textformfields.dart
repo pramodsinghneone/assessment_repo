@@ -46,7 +46,7 @@ class _FormContainerWidgetState extends State<FormContainerWidget> {
       padding: const EdgeInsets.symmetric(horizontal: 20),
       width: double.infinity,
       decoration: BoxDecoration(
-        color: whiteColor,
+        color: transparent,
         borderRadius: BorderRadius.circular(3),
       ),
       child: TextFormField(
