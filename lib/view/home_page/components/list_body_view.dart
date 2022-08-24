@@ -39,6 +39,7 @@ class ListBodyView extends StatelessWidget {
         elevation: 2,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
         child: ListTile(
+          onLongPress: () {},
           onTap: () {
             Get.to(EmployeeDetailPage(
                 employeeDetailsParams: employeeDetailsParams, index: index));
