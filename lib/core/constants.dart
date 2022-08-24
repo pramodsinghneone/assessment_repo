@@ -9,6 +9,7 @@ Color transparent = Colors.transparent;
 Color blueColor = Color(0xFF2196F3);
 Color greyLight2 = Color(0xFFE0E3E7);
 Color colorViolet = Color.fromARGB(255, 124, 57, 205);
+Color redColor = Colors.red;
 
 // height/width const
 const heightValue = 20.0;

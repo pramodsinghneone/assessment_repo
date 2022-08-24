@@ -1,6 +1,7 @@
 import 'package:assignment_task_employee_details/core/widgets/common_text.dart';
 import 'package:assignment_task_employee_details/view_model/employee_page_controller.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:get/get.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
@@ -17,9 +18,11 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   late final Box employeeBox;
+
   @override
   void initState() {
     super.initState();
+
     openBox();
   }
 

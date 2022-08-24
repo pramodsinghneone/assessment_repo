@@ -23,6 +23,11 @@ TextStyle submitDetailsBtnStyle = TextStyle(
   fontWeight: FontWeight.w600,
   color: blueColor,
 );
+TextStyle submitOptionBtnStyle = TextStyle(
+  fontSize: 18,
+  fontWeight: FontWeight.w600,
+  color: whiteColor,
+);
 TextStyle submitDetailsBtnStyleBlack = TextStyle(
   fontSize: 18,
   fontWeight: FontWeight.w600,
@@ -64,6 +69,11 @@ TextStyle detailTitleVStyle = TextStyle(
 );
 TextStyle detailTopicStyle = TextStyle(
   fontSize: 16.5,
+  fontWeight: FontWeight.w600,
+  color: blackColor,
+);
+TextStyle optionMainTitleStyle = TextStyle(
+  fontSize: 19,
   fontWeight: FontWeight.w600,
   color: blackColor,
 );

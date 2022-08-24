@@ -7,20 +7,31 @@ import 'common_text.dart';
 class ElevatedButtonView extends StatelessWidget {
   final String? btnTitle;
   Function()? onTap;
-  ElevatedButtonView({Key? key, this.btnTitle, this.onTap}) : super(key: key);
+  final double? horizontal;
+  final double? vertical;
+  final double? fontSize;
+  ElevatedButtonView({
+    Key? key,
+    this.btnTitle,
+    this.onTap,
+    this.fontSize = 30,
+    this.horizontal = 50,
+    this.vertical = 10,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
           primary: blueColor,
-          padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 10),
+          padding: EdgeInsets.symmetric(
+              horizontal: horizontal!, vertical: vertical!),
           textStyle:
-              const TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
+              TextStyle(fontSize: fontSize, fontWeight: FontWeight.bold)),
       onPressed: onTap,
       child: TextView(
         title: btnTitle,
-        textStyle: submitDetailsBtnStyle,
+        textStyle: submitOptionBtnStyle,
       ),
     );
   }
