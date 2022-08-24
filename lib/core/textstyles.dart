@@ -36,7 +36,7 @@ TextStyle submitDetailsBtnStyleBlack = TextStyle(
 TextStyle dropdownStyle = TextStyle(
   fontSize: 16,
   fontWeight: FontWeight.w400,
-  color: grey,
+  color: blackColor.withOpacity(0.8),
 );
 TextStyle dropdownStyleBlack = TextStyle(
   fontSize: 16,
