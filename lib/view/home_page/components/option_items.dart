@@ -64,7 +64,7 @@ class _OptionItemsState extends State<OptionItems> {
       children: [
         Flexible(
           child: _commonBtn(
-            "Edit",
+            edit,
             editOption,
           ),
         ),
