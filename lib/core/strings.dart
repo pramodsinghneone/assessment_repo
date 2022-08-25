@@ -23,3 +23,4 @@ const hybrid = "Hybrid";
 const availOnWeekends = "Available on Weekends";
 const submitDetails = "Submit Details";
 const showList = "Show List";
+const selectOption = "Select Option";

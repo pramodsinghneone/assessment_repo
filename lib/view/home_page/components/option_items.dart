@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import 'package:hive/hive.dart';
 
 import '../../../core/params/employee_details_request_params.dart';
+import '../../../core/strings.dart';
 import '../../../core/textstyles.dart';
 import '../../../core/widgets/elevated_button.dart';
 import '../../../view_model/employee_page_controller.dart';
@@ -52,7 +53,7 @@ class _OptionItemsState extends State<OptionItems> {
 
   Widget _mainTitle() {
     return TextView(
-      title: "Select Option",
+      title: selectOption,
       textStyle: optionMainTitleStyle,
     );
   }
