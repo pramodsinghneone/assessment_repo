@@ -108,7 +108,6 @@ class _OptionItemsState extends State<OptionItems> {
     try {
       Get.back();
       employeeBox.deleteAt(widget.index! - 1);
-      print("Record deleted");
       if (employeeBox.isEmpty) {
         Get.find<EmployeeDetailsController>().boxHasValue.value = false;
       }
