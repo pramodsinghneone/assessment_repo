@@ -64,7 +64,7 @@ class _ListBodyViewState extends State<ListBodyView> {
               backgroundColor: redColor,
               foregroundColor: whiteColor,
               icon: Icons.delete,
-              label: "Delete",
+              label: delete,
               onPressed: (value) {
                 try {
                   box.deleteAt(widget.index! - 1);

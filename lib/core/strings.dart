@@ -25,3 +25,4 @@ const submitDetails = "Submit Details";
 const showList = "Show List";
 const selectOption = "Select Option";
 const edit = "Edit";
+const delete = "Delete";
