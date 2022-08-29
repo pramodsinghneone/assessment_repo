@@ -7,6 +7,7 @@ import 'package:hive/hive.dart';
 
 import '../../../core/constants.dart';
 import '../../../core/params/employee_details_request_params.dart';
+import '../../../core/strings.dart';
 import '../../../core/textstyles.dart';
 import '../../../core/universal_funtions.dart';
 import '../../../core/widgets/common_text.dart';
@@ -83,7 +84,7 @@ class _ListBodyViewState extends State<ListBodyView> {
               backgroundColor: Colors.blueAccent,
               foregroundColor: Colors.white,
               icon: Icons.edit,
-              label: 'Edit',
+              label: edit,
               onPressed: (value) {
                 Get.find<EmployeeDetailsController>()
                     .employeeDetailsParams
