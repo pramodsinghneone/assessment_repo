@@ -256,7 +256,7 @@ class _EmployeeFormPageState extends State<EmployeeFormPage> {
         ),
         Flexible(
           child: RadioButtonView(
-            title: "Female",
+            title: female,
             value: "female",
             groupValue: employeeDetailsController.groupValue != null
                 ? employeeDetailsController.groupValue!.value
