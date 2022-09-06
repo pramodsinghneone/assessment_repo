@@ -27,3 +27,4 @@ const selectOption = "Select Option";
 const edit = "Edit";
 const delete = "Delete";
 const female = "Female";
+const male = "Male";
